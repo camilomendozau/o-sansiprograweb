@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://ohsansi.umss.edu.bo/comitecientificoohsansi.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>O!SanSi</title>
+    <meta name="keywords" content="Olimpiada Científica Estudiantil, Informática, Química, Física, Astrofísica y Astronomia, Biologia, Robotica, Matemáticas">
+    
+    <meta name="description" content="Olimpiada Científica Nacional promovida por la Universidad Mayor de San Simón">
+    <meta name="author" content="O! SanSi - FCyT - UMSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./comitecientifico_files/w3.css">
+    <link rel="stylesheet" href="./comitecientifico_files/w3-theme-light-blue.css">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./comitecientifico_files/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="./comitecientifico_files/sansi-logo-only.jpeg">
+
+    <style>
+        .navbar {
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+        }
+
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #336ff0;
+            color: white;
+        }
+
+        .fa-tiktok {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #eb5747;
+            color: white;
+        }
+
+        .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+
+        .fa-snapchat-ghost {
+            background: #fffc00;
+            color: white;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .fa-skype {
+            background: #00aff0;
+            color: white;
+        }
+
+        .fa-android {
+            background: #a4c639;
+            color: white;
+        }
+
+        .fa-dribbble {
+            background: #ea4c89;
+            color: white;
+        }
+
+        .fa-vimeo {
+            background: #45bbff;
+            color: white;
+        }
+
+        .fa-tumblr {
+            background: #2c4762;
+            color: white;
+        }
+
+        .fa-vine {
+            background: #00b489;
+            color: white;
+        }
+
+        .fa-foursquare {
+            background: #45bbff;
+            color: white;
+        }
+
+        .fa-stumbleupon {
+            background: #eb4924;
+            color: white;
+        }
+
+        .fa-flickr {
+            background: #f40083;
+            color: white;
+        }
+
+        .fa-yahoo {
+            background: #430297;
+            color: white;
+        }
+
+        .fa-soundcloud {
+            background: #ff5500;
+            color: white;
+        }
+
+        .fa-reddit {
+            background: #ff5700;
+            color: white;
+        }
+
+        .fa-rss {
+            background: #ff6600;
+            color: white;
+        }
+
+        .w3-cell-row {
+            display: flex;
+        }
+
+        .w3-container {
+            flex: 1;
+        }
+
+        .w3-card {
+            height: 100%;
+        }
+
+        .cards {
+            font-size: 2vw;
+            min-height: 7vw;
+            max-height: 7vw;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="w3-sidebar w3-sand w3-bar-block w3-card" id="mySidebar" onmouseleave=" closeSidebar()" style="display: none;">
+        <div class="w3-container w3-sand">
+            <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+        </div>
+        <img alt="logo O!SanSi" class="w3-image w3-third w3-padding" src="./comitecientifico_files/sansi-logo-only.jpeg">
+        <br>
+        <a class="w3-bar-item w3-button" onclick="closeSidebar()" href="http://ohsansi.umss.edu.bo/index.html#pres">Presentación</a>
+        <a class="w3-bar-item w3-button" onclick="closeSidebar()" href="http://ohsansi.umss.edu.bo/index.html#part">Participantes</a>
+        <a class="w3-bar-item w3-button" onclick="closeSidebar()" href="http://ohsansi.umss.edu.bo/index.html#conv">Convocatorias por área</a>
+        <a class="w3-bar-item w3-button" onclick="closeSidebar()" href="http://ohsansi.umss.edu.bo/index.html#requ">Requisitos</a>
+        <a class="w3-bar-item w3-button" onclick="closeSidebar()" href="http://ohsansi.umss.edu.bo/index.html#insc">Inscripción</a>
+        <a class="w3-bar-item w3-button" onclick="closeSidebar()" href="http://ohsansi.umss.edu.bo/index.html#etap">Etapas</a>
+        <a class="w3-bar-item w3-button" onclick="closeSidebar()" href="http://ohsansi.umss.edu.bo/index.html#prem">Premios</a>
+        <a class="w3-bar-item w3-button" onclick="closeSidebar()" href="http://ohsansi.umss.edu.bo/index.html#info">Información</a>
+        <a class="w3-bar-item w3-button" onclick="closeSidebar()" href="http://ohsansi.umss.edu.bo/comitecientificoohsansi.html">Comité Científico</a>
+    </nav>
+
+    <button type="button" class="navbar w3-bar-item w3-button w3-xxxlarge w3-hover-theme w3-blue" style=" opacity: 0.5" onclick="openSidebar()" onmouseover=" openSidebar()"> ☰ </button>
+    <header class=" w3-container w3-center w3-mobile w3-theme">
+
+        <img class="w3-image w3-padding" src="./comitecientifico_files/o!sansi.jpeg" alt="o!sansi logo" style="width:200%;max-width:300px">
+    </header>
+    <div class="w3-container">
+        <div class="w3-container">
+            <a class="w3-tag w3-padding w3-left w3-large" href="http://ohsansi.umss.edu.bo/index.html">← volver</a>
+        </div>
+        <div class="w3-container w3-center w3-mobile">
+            <h1 class="w3-center">COMITÉ OLIMPIADA CIENTÍFICA NACIONAL SAN SIMÓN</h1>
+        </div>
+
+        <div class="w3-row-padding w3-margin-top w3-section w3-stretch">
+            <div class="w3-cell w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Astronomía y Astrofísica</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/JuanCarlosTerrazasVargas.jpeg" alt="foto Juan Carlos Terrazas Vargas">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">Juan Carlos Terrazas Vargas</p>
+                </div>
+            </div>
+            <div class="w3-cell w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Astronomía y Astrofísica</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/emptyphoto.png" alt="foto Freddy Flores Flores">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">Freddy Flores Flores</p>
+                </div>
+            </div>
+
+            <div class="w3-cell w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Biología</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/ErikaFernandezTerrazas.png" alt="foto Erika Fernández Terrazas">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">Erika Fernández Terrazas</p>
+                </div>
+            </div>
+
+            <div class="w3-cell w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Biología</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/emptyphoto.png" alt="foto José Carlos Pérez">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">José Carlos Pérez</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row-padding w3-margin-top w3-section w3-stretch">
+            <div class="w3-cell w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Física</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/MarkoAndradeUzieda.png" alt="foto Marko Andrade Uzieda">
+
+                <div class="w3-cell w3-container w3-pale-blue">
+                    <p class="cards w3-center">Marko Andrade Uzieda</p>
+                </div>
+            </div>
+            <div class="w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Física</h5>
+                </div>
+
+                <img class="w3-cell w3-image w3-round-large w3-circle" src="./comitecientifico_files/emptyphoto.png" alt="foto Rocio Guzmán Saavedra">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">Rocio Guzmán Saavedra</p>
+                </div>
+            </div>
+
+            <div class="w3-cell w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Informática</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/Vladimircostasjauregui.png" alt="foto Vladimir Costas Jáuregui">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">Vladimir Costas Jáuregui</p>
+                </div>
+            </div>
+
+            <div class="w3-cell w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Informática</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/emptyphoto.png" alt="foto Leticia Blanco Coca">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">Leticia Blanco Coca</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row-padding w3-margin-top w3-section w3-stretch">
+            <div class="w3-cell w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Matemática</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/emptyphoto.png" alt="foto Vidal Matias Marca">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">Vidal Matias Marca</p>
+                </div>
+            </div>
+
+            <div class="w3-cell w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Matemática</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/emptyphoto.png" alt="foto Carlos Soto Moreira">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">Carlos Soto Moreira</p>
+                </div>
+            </div>
+
+            <div class="w3-cell w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Química</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/emptyphoto.png" alt="foto Boris Moreira Rosas">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">Boris Moreira Rosas</p>
+                </div>
+            </div>
+
+            <div class="w3-cell w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Química</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/emptyphoto.png" alt="foto Maritza Arnez Torrico">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">Maritza Arnez Torrico</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-cell w3-row-padding w3-margin-top w3-section w3-stretch">
+            <div class="w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Robótica</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/emptyphoto.png" alt="foto Marco Arancibia Miranda">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">Marco Arancibia Miranda</p>
+                </div>
+            </div>
+
+            <div class="w3-card-4 w3-quarter">
+                <div class="w3-container w3-pale-blue">
+                    <h5 class="cards w3-center">Robótica</h5>
+                </div>
+
+                <img class="w3-image w3-round-large w3-circle" src="./comitecientifico_files/emptyphoto.png" alt="foto Jonhson Luizaga">
+
+                <div class="w3-container w3-pale-blue">
+                    <p class="cards w3-center">Jonhson Luizaga</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="w3-container w3-center">
+        <a class="w3-tag w3-padding w3-large" href="http://ohsansi.umss.edu.bo/index.html">← volver</a>
+    </div>
+    <footer class="w3-container w3-teal w3-theme w3-center">
+        <a href="https://www.facebook.com/people/Ohsansi/61560666333554/?sk=about" class="fa fa-facebook"> </a>
+        <!-- 
+                            <a href="#" class="fa fa-twitter"> </a>
+        <a href="#" class="fa fa-linkedin"> </a>
+                        -->
+        <a href="http://ohsansi.umss.edu.bo/www.tiktok.com/@ohsansi" class="fa fa-tumblr"> </a>
+        <a href="http://ohsansi.umss.edu.bo/www.instagram.com/ohsansi/" class="fa fa-instagram"> </a>
+    </footer>
+    <script>
+        closeSidebar();
+
+        function openSidebar() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function closeSidebar() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+
+</body></html>
